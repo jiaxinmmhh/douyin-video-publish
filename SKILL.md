@@ -1,6 +1,6 @@
 ---
 name: douyin-video-publish
-slug: douyin-video-publish
+slug: douyin-video-uploader
 displayName: 抖音自动发布
 version: 1.0.0
 description: 内容做好之后的抖音自动发布。成品视频 + 文案就绪后，一条命令完成上传、填标题、写简介与话题、归入合集、设定时发布；支持按天批量双更排期，一次配好让系列内容自己往下发。也能对账「哪些排上了哪些没排」、清理重复预约。当用户说「发抖音」「抖音定时发布」「抖音排期」「抖音上传视频」「抖音批量发布」「查抖音排了哪些」时使用。
