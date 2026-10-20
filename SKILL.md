@@ -2,7 +2,7 @@
 name: douyin-video-publish
 slug: douyin-video-uploader
 displayName: 抖音自动发布
-version: 1.0.0
+version: 1.0.1
 description: 内容做好之后的抖音自动发布。成品视频 + 文案就绪后，一条命令完成上传、填标题、写简介与话题、归入合集、设定时发布；支持按天批量双更排期，一次配好让系列内容自己往下发。也能对账「哪些排上了哪些没排」、清理重复预约。当用户说「发抖音」「抖音定时发布」「抖音排期」「抖音上传视频」「抖音批量发布」「查抖音排了哪些」时使用。
 agent_created: true
 ---
@@ -152,6 +152,10 @@ KW="标题关键词" IDX=2 DEL=1 node scripts/dy-del-dup.js    # 真删
 - 小红书分发见 skill `xiaohongshu-video-publish`
 
 ## 更新日志
+
+### v1.0.1（2026-10-20）
+- **补齐 `scripts/dy-queue.js`**：v1.0.0 的「文件」清单里写了它，但实际没打进包，
+  导致资产包审核被判定「内置文件缺失」驳回。现已补入，并校验 SKILL.md 引用的 8 个文件全部存在。
 
 ### v1.0.0（2026-10-15）
 - 首次落地：上传 / 标题 / 简介+话题 / 合集 / 定时 / 批量双更 / 对账 / 建合集 / 清重复
